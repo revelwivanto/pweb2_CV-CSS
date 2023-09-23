@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="revel">
+    <meta name="description" content="This page contains all the things I'm learning how to create as I learn HTML.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV - Revel</title>
+    <link rel="icon" href="favicon.gif" type="image/x-icon">
+    <style>
+        html {
+            font-size: 22px;
+        }
+        body {
+            background-color: #333;
+            color: whitesmoke;
+            background: linear-gradient(rgb(34, 40, 49) 0%, rgb(57, 62, 70) 35%, rgb(0, 173, 181) 66%, rgb(238, 238, 238) 100%); 
+        }
+        .pp {
+            border-radius: 50%;
+        }
+        .center-text {
+            text-align: center; /* Center the text horizontally */
+        }
+        .background {
+            background-image: url('back.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center; /* Center the image horizontally and vertically */
+        }
+        .pendidikan-figure {
+            float: left;
+            width: 50%; /* Distribute equally among the four columns */
+            margin: 0 auto; /* Center the figure horizontally within the column */
+            text-align: center; /* Center the content (image and text) inside the figure */
+        }
+        .achievments-figure {
+            float: left;
+            width: 33%; /* Distribute equally among the four columns */
+            margin: 0 auto; /* Center the figure horizontally within the column */
+            text-align: center; /* Center the content (image and text) inside the figure */
+        }
+        .toolset-figure {
+            float: left;
+            width: 25%; /* Distribute equally among the four columns */
+            margin: 0 auto; /* Center the figure horizontally within the column */
+            text-align: center; /* Center the content (image and text) inside the figure */
+        }
+        ul {
+            list-style-type: none;
+            clear: both;
+        }
+        h2 {
+            clear: both;
+        }
+        .figcaption-container:hover figcaption {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="center-text">
+    <header class="background">
+        <div>
+            <img class="pp" src="reveljas.png" width="300" alt="Revel Image">
+        </div>
+        <h1> Muhammad Revel Wivanto </h1>
+        <hr>
+    </header>
+    <main>
+        <article>
+            <h2> Pendidikan </h2>
+            <ul>
+                <li>
+                    <div class="figure-group">
+                        <figure class="pendidikan-figure">
+                            <img src="sma3.png" width="300" alt="sma3 Image">
+                            <figure class="figcaption-container">
+                                <figcaption><a href="https://www.instagram.com/sman3jakarta_official/" target="_blank" style="color: rgba(255, 255, 255, 0.866);">SMAN 3 Jakarta</a></figcaption>
+                            </figure>
+                        </figure>
+                        <figure class="pendidikan-figure">
+                            <img src="its.png" width="300" alt="sma3 Image">
+                            <figure class="figcaption-container">
+                                <figcaption><a href="https://www.instagram.com/its_campus/" target="_blank" style="color: rgba(255, 255, 255, 0.866);">Institut Teknologi Sepuluh Nopember</a></figcaption>
+                            </figure>
+                        </figure>
+                    </div>
+                </li>
+            </ul>
+            <h2> Achievements</h2>
+            <ul>
+                <li>
+                    <div class="figure-group">
+                        <figure class="achievments-figure">
+                            <img src="slam.png" width="300" alt="its Image">
+                            <figure class="figcaption-container">
+                                <figcaption><a href="https://www.instagram.com/slamfest_teladan/" target="_blank" style="color: rgba(255, 255, 255, 0.866);">MC of Slamfest</a></figcaption>
+                            </figure>
+                        </figure>
+                        <figure class="achievments-figure">
+                            <img src="orphan.png" width="300" alt="Orphan Image">
+                            <figure class="figcaption-container">
+                                <figcaption> <a href="https://www.instagram.com/p/BwatxlcDBx_/?img_index=7" target="_blank" style="color: rgba(255, 255, 255, 0.866);">Head Organizer of orphanage crowd funding</a></figcaption>
+                            </figure>
+                        </figure>
+                        <figure class="achievments-figure">
+                            <img src="smun.png" width="300" alt="SMUN Image">
+                            <figure class="figcaption-container">
+                                <figcaption> <a href="https://www.instagram.com/p/CtNlxEwypuW/" target="_blank" style="color: rgba(255, 255, 255, 0.866)">ITS MUN International Delegate (SMUN)</a></figcaption>
+                            </figure>
+                        </figure>
+                    </div>
+                </li>
+            </ul>
+            <h2> Toolset </h2>
+            <ul>
+                <li>
+                    <div class="figure-group">
+                        <figure class="toolset-figure">
+                            <img src="python.png" width="300" alt="sma3 Image">
+                        </figure>
+                        <figure class="toolset-figure">
+                            <img src="java.png" width="300" alt="sma3 Image">
+                        </figure>
+                        <figure class="toolset-figure">
+                            <img src="C.png" width="300" alt="sma3 Image">
+                        </figure>
+                        <figure class="toolset-figure">
+                            <img src="html.png" width="300" alt="sma3 Image">
+                        </figure>
+                        <figure class="toolset-figure">
+                            <img src="css.png" width="300" alt="sma3 Image">
+                        </figure>
+                        <figure class="toolset-figure">
+                            <img src="js.png" width="300" alt="sma3 Image">
+                        </figure>
+                        <figure class="toolset-figure">
+                            <img src="mword.png" width="300" alt="sma3 Image">
+                        </figure>
+                        <figure class="toolset-figure">
+                            <img src="pp.png" width="300" alt="sma3 Image">
+                        </figure>
+                    </div>
+                </li>
+            </ul>
+        </article>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
